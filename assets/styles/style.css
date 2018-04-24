@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/*****************************
+********************* GENERAL
+*****************************/
+
+body {
+  background: #1e1e1e;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.dice__title {
+  background-color: #eee;
+  color: #111;
+  padding: 1.5rem;
+}
+
+.dice__trigger {
+  margin: 2rem 0;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.dice__trigger:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
