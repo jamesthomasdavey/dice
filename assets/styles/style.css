@@ -46,3 +46,8 @@ body {
   opacity: 0.8;
   cursor: pointer;
 }
+
+.rotate.dice__image {
+  transition: 0.4s all ease;
+  transform: rotate(360deg);
+}
